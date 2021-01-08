@@ -14,7 +14,7 @@ is located in app/web/modules/custom/´
 
 
 ## Database
-Datbase dump is in the root of this repo
+Datbase dump is in the root of this repo (d8dump.sql)
 
 ## Screenshot of /listings page
 ![screenshot](./screenshots/Capture.PNG)
