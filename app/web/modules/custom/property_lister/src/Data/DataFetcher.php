@@ -13,10 +13,6 @@ class DataFetcher {
 
     public $data_endpoint;
 
-    public $absolute_data_endpoint;
-
-    public $jsonData;
-
     public $totalProperties;
 
     public function __construct(string $data_endpoint) {
