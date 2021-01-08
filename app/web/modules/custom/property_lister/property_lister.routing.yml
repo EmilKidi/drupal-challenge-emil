@@ -1,0 +1,7 @@
+property_lister.listings:
+  path: '/listings'
+  defaults:
+    _controller: '\Drupal\property_lister\Controller\ListingController::render'
+    _title: 'Available properties'
+  requirements:
+    _permission: 'access content'

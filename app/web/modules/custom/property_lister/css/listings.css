@@ -1,0 +1,74 @@
+.property {
+    width: 45%;
+    float: left;
+    margin: 0 10px 20px;
+    border: 1px solid #e8e8e8;
+    border-radius: 5px;
+    font-size: 25px;
+}
+.property .propid {
+    margin: 0;
+    padding: 10px;
+    font-size: 13px;
+}
+.property .rating {
+    padding: 10px;
+    margin: 0;
+}
+.property .image-container {
+    position: relative;
+}
+.property .image-container img {
+    width: 100%;
+}
+.property .image-container .price {
+    position: absolute;
+    right: 0;
+    top: 70%;
+    background-color: #fd0;
+    padding: 10px 65px;
+    font-weight: bold;
+    text-align: center;
+}
+.property .image-container .price p {
+    margin: 0;
+}
+
+.property .headline {
+    overflow: hidden;
+    border-bottom: 1px solid #e8e8e8;
+    font-weight: bold;
+    margin-top: 0;
+    padding: 15px;
+}
+
+.property .info-panel div {
+    width: 29%;
+    font-size: 18px;
+    padding: 10px;
+    float: left;
+    text-align: center;
+}
+
+.pagination {
+    border-top: 1px solid #e8e8e8;
+    width: 93%;
+}
+.pagination ul li a {
+    color:white;
+}
+.pagination ul {
+    list-style-type: none;
+}
+.pagination ul li {
+    width: 20px;
+    display: inline-block;
+    height: 20px;
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    padding: 20px;
+    text-align: center;
+    line-height: 1;
+    margin: 10px;
+}

@@ -1,0 +1,9 @@
+#!/bin/bash
+# Include the Apache variables.
+source "/etc/apache2/envvars"
+
+# Ensure that a PID file does not already exist.
+rm -f /var/run/apache2/apache2.pid
+
+# Run the Apache daemon in the foreground.
+exec /usr/sbin/apache2 -e info -DFOREGROUND

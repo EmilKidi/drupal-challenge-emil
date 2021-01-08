@@ -1,0 +1,48 @@
+{# property_lister/templates/listings.html.twig #}
+
+<div class="container">
+    <div class="row">
+        {% for house in data["results"] %}
+            <div class="col-md-4 property">
+                <p class="propid">Property Id: {{house.id}}</p>
+                <p class="rating">Rating: {{ house.rating }} / 5</p>
+                <div class="image-container">
+                    <div class="price">
+                        <p>from {{ house.prices[0].totalPrice }} €</p>
+                    </div>
+                    <img src="{{ house.picture }}">
+                </div>
+                <h3 class="headline"> {{ house.headline }} </h3>
+                <div class="info-panel">
+                    <div class="type">
+                        <p> {{ house.propertyTypeName }} </p>
+                    </div>
+                    <div class="people">
+                        {% if house.children > 0 %}
+                            <p> {{ house.adults ~ " + " ~ house.children ~ " People" }} </p>
+                        {% else %}
+                            <p> {{ house.adults ~ " People"}} </p>
+                        {% endif %}
+                    </div>
+                    <div class="bedroom">
+                        <p> {{ house.bedrooms }} bedrooms</p>
+                    </div>
+                </div>
+            </div>
+        {% endfor %}
+    </div>
+</div>
+
+<div style="clear:both"></div>
+
+<div class="container">
+    <div class="pagination">
+        <ul>
+             {# Divide total ammount of properties by the ammount of properties per. page. TODO: make it a variable #}
+             {#thinking about it I wouldn't actually do it like this.. would use drupals controller parameters #}
+            {% for i in range(0, totalProperties // 4 ) %}
+                <li><a href="/listings?page={{ i + 1 }}"> {{ i + 1 }} </a></li>
+            {% endfor %}
+        </ul>
+    </div>
+</div>

@@ -1,0 +1,24 @@
+<?php
+
+/**
+ * @file
+ * Module file for property_lister.
+ */
+
+use Drupal\block\Entity\Block;
+use Drupal\property_lister\Helper\Sorting;
+
+/**
+ * Implements hook_theme().
+ */
+function property_lister_theme($existing, $type, $theme, $path) {
+    return [
+        'listings' => [
+            'variables' => [
+                'data' => null,
+                'current_page' => Sorting::getPage(),
+                'totalProperties' => null,
+            ],
+        ],
+    ];
+}

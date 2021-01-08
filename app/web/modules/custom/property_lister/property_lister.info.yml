@@ -1,0 +1,5 @@
+name: "Property Lister"
+description: "Module for listing available properties"
+core: "8.x"
+type: "module"
+package: "Custom"

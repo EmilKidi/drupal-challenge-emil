@@ -1,0 +1,300 @@
+{
+    "requestTimeMs": 160.31,
+    "currency": "EUR",
+    "language": "en",
+    "total": 23456,
+    "count": 10,
+    "results": [
+        {
+            "picture": "//sdc.novasol.com/pic/scr/scr199_pool_01.jpg",
+            "headline": "Portoroz",
+            "beds": 2,
+            "propertyTypeName": "Holiday apartment",
+            "countryName": "Slovenia",
+            "pictures": null,
+            "prices": [
+                {
+                    "totalPrice": 484
+                }
+            ],
+            "propertySize": 47,
+            "distanceShop": 350,
+            "distanceWater": 170,
+            "propertyType": "APARTMENT",
+            "bathrooms": 1,
+            "bedrooms": 2,
+            "score": 1,
+            "lat": 45.5175,
+            "lng": 13.5766,
+            "pets": 1,
+            "rating": 4,
+            "adults": 4,
+            "children": 0,
+            "id": "SCR199",
+            "country": 705
+        },
+        {
+            "picture": "//sdc.novasol.com/pic/scr/scr065_pool_01.jpg",
+            "headline": "Portoroz",
+            "beds": 3,
+            "propertyTypeName": "Holiday apartment",
+            "countryName": "Slovenia",
+            "pictures": null,
+            "prices": [
+                {
+                    "totalPrice": 929
+                }
+            ],
+            "propertySize": 112,
+            "distanceShop": 600,
+            "distanceWater": 450,
+            "propertyType": "APARTMENT",
+            "bathrooms": 2,
+            "bedrooms": 3,
+            "score": 1,
+            "lat": 45.5184,
+            "lng": 13.5888,
+            "pets": 0,
+            "rating": 4,
+            "adults": 5,
+            "children": 0,
+            "id": "SCR065",
+            "country": 705
+        },
+        {
+            "picture": "//sdc.novasol.com/pic/scr/scr137_associated_04.jpg",
+            "headline": "Piran",
+            "beds": 2,
+            "propertyTypeName": "Holiday apartment",
+            "countryName": "Slovenia",
+            "pictures": null,
+            "prices": [
+                {
+                    "totalPrice": 450
+                }
+            ],
+            "features": [],
+            "propertySize": 60,
+            "distanceShop": 200,
+            "distanceWater": 400,
+            "propertyType": "APARTMENT",
+            "bathrooms": 1,
+            "bedrooms": 2,
+            "score": 1,
+            "lat": 45.5274,
+            "lng": 13.5688,
+            "pets": 0,
+            "rating": 3,
+            "adults": 5,
+            "children": 0,
+            "id": "SCR137",
+            "country": 705
+        },
+        {
+            "picture": "//sdc.novasol.com/pic/scr/scr092_main_01.jpg",
+            "headline": "Portoroz",
+            "beds": 2,
+            "propertyTypeName": "Holiday apartment",
+            "countryName": "Slovenia",
+            "pictures": null,
+            "prices": [
+                {
+                    "totalPrice": 510
+                }
+            ],
+            "propertySize": 77,
+            "distanceShop": 300,
+            "distanceWater": 300,
+            "propertyType": "APARTMENT",
+            "bathrooms": 1,
+            "bedrooms": 2,
+            "score": 1,
+            "lat": 45.5172,
+            "lng": 13.5872,
+            "pets": 0,
+            "rating": 4,
+            "adults": 5,
+            "children": 0,
+            "id": "SCR092",
+            "country": 705
+        },
+        {
+            "picture": "//sdc.novasol.com/pic/scr/scr073_main_01.jpg",
+            "headline": "Portoroz-Lucija",
+            "beds": 2,
+            "propertyTypeName": "Holiday apartment",
+            "countryName": "Slovenia",
+            "pictures": null,
+            "prices": [
+                {
+                    "totalPrice": 320
+                }
+            ],
+            "features": [],
+            "propertySize": 58,
+            "distanceShop": 500,
+            "distanceWater": 1000,
+            "propertyType": "APARTMENT",
+            "bathrooms": 2,
+            "bedrooms": 2,
+            "score": 1,
+            "lat": 45.5107,
+            "lng": 13.6019,
+            "pets": 1,
+            "rating": 3,
+            "adults": 4,
+            "children": 1,
+            "id": "SCR073",
+            "country": 705
+        },
+        {
+            "picture": "//sdc.novasol.com/pic/scr/scr091_main_01.jpg",
+            "headline": "Izola",
+            "beds": 3,
+            "propertyTypeName": "Holiday apartment",
+            "countryName": "Slovenia",
+            "pictures": null,
+            "prices": [
+                {
+                    "totalPrice": 359
+                }
+            ],
+            "features": [],
+            "propertySize": 90,
+            "distanceShop": 150,
+            "distanceWater": 300,
+            "propertyType": "APARTMENT",
+            "bathrooms": 1,
+            "bedrooms": 3,
+            "score": 1,
+            "lat": 45.5265,
+            "lng": 13.6528,
+            "pets": 1,
+            "rating": 3,
+            "adults": 7,
+            "children": 0,
+            "id": "SCR091",
+            "country": 705
+        },
+        {
+            "picture": "//sdc.novasol.com/pic/snr/snr102_main_01.jpg",
+            "headline": "Notranjska-Grahovo",
+            "beds": 2,
+            "propertyTypeName": "Holiday apartment",
+            "countryName": "Slovenia",
+            "pictures": null,
+            "prices": [
+                {
+                    "totalPrice": 399
+                }
+            ],
+            "features": [],
+            "propertySize": 82,
+            "distanceShop": 1000,
+            "distanceWater": 10,
+            "propertyType": "APARTMENT",
+            "bathrooms": 1,
+            "bedrooms": 2,
+            "score": 1,
+            "lat": 45.7622,
+            "lng": 14.4341,
+            "pets": 0,
+            "rating": 3,
+            "adults": 4,
+            "children": 2,
+            "id": "SNR102",
+            "country": 705
+        },
+        {
+            "picture": "//sdc.novasol.com/pic/scr/scr180_outdoor_01.jpg",
+            "headline": "Koper",
+            "beds": 0,
+            "propertyTypeName": "Holiday apartment",
+            "countryName": "Slovenia",
+            "pictures": null,
+            "prices": [
+                {
+                    "totalPrice": 254
+                }
+            ],
+            "features": [],
+            "propertySize": 32,
+            "distanceShop": 70,
+            "distanceWater": 670,
+            "propertyType": "APARTMENT",
+            "bathrooms": 1,
+            "bedrooms": 0,
+            "score": 1,
+            "lat": 45.5479,
+            "lng": 13.7339,
+            "pets": 1,
+            "rating": 3,
+            "adults": 4,
+            "children": 0,
+            "id": "SCR180",
+            "country": 705
+        },
+        {
+            "picture": "//sdc.novasol.com/pic/scr/scr169_outdoor_01.jpg",
+            "headline": "Izola",
+            "beds": 3,
+            "propertyTypeName": "Terraced house",
+            "countryName": "Slovenia",
+            "pictures": null,
+            "prices": [
+                {
+                    "totalPrice": 530
+                }
+            ],
+            "features": [],
+            "propertySize": 70,
+            "distanceShop": 10,
+            "distanceWater": 600,
+            "propertyType": "TERRACED_HOUSE",
+            "bathrooms": 2,
+            "bedrooms": 3,
+            "score": 1,
+            "lat": 45.5364,
+            "lng": 13.661,
+            "pets": 0,
+            "rating": 3,
+            "adults": 6,
+            "children": 0,
+            "id": "SCR169",
+            "country": 705
+        },
+        {
+            "picture": "//sdc.novasol.com/pic/scr/scr105_outdoor_01.jpg",
+            "headline": "Dutovlje",
+            "beds": 2,
+            "propertyTypeName": "Holiday apartment",
+            "countryName": "Slovenia",
+            "pictures": null,
+            "prices": [
+                {
+                    "totalPrice": 719
+                }
+            ],
+            "features": [],
+            "propertySize": 129,
+            "distanceShop": 2000,
+            "distanceWater": 22000,
+            "propertyType": "APARTMENT",
+            "bathrooms": 2,
+            "bedrooms": 2,
+            "score": 1,
+            "lat": 45.7732,
+            "lng": 13.8215,
+            "pets": 0,
+            "rating": 4,
+            "adults": 8,
+            "children": 0,
+            "id": "SCR105",
+            "country": 705
+        }
+    ],
+    "errorMessages": null,
+    "offset": 10,
+    "serverIp": "127.0.0.1",
+    "theTime": "2018-01-19T03:52:09.331"
+}

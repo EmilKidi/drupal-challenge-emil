@@ -1,0 +1,20 @@
+#!/usr/bin/env bash
+# Include the Apache variables.
+source "/etc/apache2/envvars"
+
+a2enmod proxy
+a2enmod proxy_fcgi
+a2enmod rewrite
+
+# Initialize the directories used by the configuration files.
+if [[ ! -d "$APACHE_LOCK_DIR" ]]; then
+  mkdir -p "$APACHE_LOCK_DIR"
+  chown -R "${APACHE_RUN_USER}:${APACHE_RUN_GROUP}" "$APACHE_LOCK_DIR"
+fi
+
+APACHE_PID_DIR=$(dirname "$APACHE_PID_FILE")
+
+if [[ ! -d "$APACHE_PID_DIR" ]]; then
+  mkdir -p "$APACHE_PID_DIR"
+  chown -R "${APACHE_RUN_USER}:${APACHE_RUN_GROUP}" "$APACHE_PID_DIR"
+fi

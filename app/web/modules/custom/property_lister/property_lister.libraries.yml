@@ -1,0 +1,6 @@
+# property_lister.libraries.yml
+lister:
+  version: 1.x
+  css:
+    theme:
+      css/listings.css: {}

@@ -1,0 +1,26 @@
+version: "3.4"
+services:
+  php:
+    build: './php/'
+    volumes:
+      - ./:/var/www/html/
+    environment:
+      - NOVA_MOCK_ENDPOINT
+
+  apache:
+    build: './apache/'
+    depends_on:
+      - php
+      - mysql
+    ports:
+      - "8080:80"
+    volumes:
+      - ./:/var/www/html/
+  mysql:
+    image: mysql:5.6.40
+    environment:
+      - MYSQL_ROOT_PASSWORD=pass
+    ports:
+      - "3306:3306"
+    volumes:
+      - ./:/var/www/html/
